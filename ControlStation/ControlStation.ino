@@ -23,6 +23,7 @@ void loop() {
     processCommand(command);
     Serial.println();
     printCommandMenu(); // Vuelve a imprimir el menú
+    
   }
   delay(100);
 }
